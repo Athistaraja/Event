@@ -60,3 +60,135 @@
     width: 500px;
     margin-left: 100px;
   }
+  @media only screen and (max-width: 1300px){
+    .container-fluid{
+      height:600px;
+      width: auto;
+      margin: 20px;
+      border: 5px solid black;
+      background-color: rgb(228, 105, 105);
+    }
+    .event{
+      height: 110px;
+      width: auto;
+      color: blueviolet;
+    }
+    h1{
+      margin-left: 300px;
+      padding: 10px;
+        }
+    h4{
+      margin-left:250px;
+        }
+    .event-small{
+      height: 470px;
+      width: auto;
+      border: 5px solid black;
+      background-color: aliceblue;
+      display: flex;
+      flex-direction: row;
+    }
+    .column1{
+      height: 250px;
+      width: 30%;
+      padding: 10px;
+    }
+    img{
+      margin: 40px;
+      height: 200px;
+      width: 200px;
+    }
+    .column2{
+      height: 450px;
+      width: 70%;
+      padding: 20px;
+    }
+    form{
+      padding: 20px;
+      font-size: 19px;
+      text-align: end;
+      margin-right: 1%;
+    }
+    input{
+      width: 250px;
+    }
+    .dropdown{
+      width: 90px;
+      margin-right: 160px;
+    }
+    .button{
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      width: 300px;
+      margin-left: 100px;
+    }
+  }
+  @media only screen and (max-width: 600px){
+    .container-fluid{
+      height:1010px;
+      width: auto;
+      margin: 20px;
+      border: 5px solid black;
+      background-color: rgb(228, 105, 105);
+    }
+    .event-small{
+      height: 500px;
+      width: auto;
+      border: 5px solid black;
+      background-color: aliceblue;
+      display: flex;
+      flex-direction: row;
+    }
+     h1{
+      margin-left: 190px;
+      padding: 10px;
+        }
+    h4{
+      margin-left:130px;
+        }
+    .event-small{
+      height: 870px;
+      width: auto;
+      border: 5px solid black;
+      background-color: aliceblue;
+      display: flex;
+      flex-direction: column;
+    }
+    .column1{
+      height: 200px;
+      width: 30%;
+      padding: 10px;
+    }
+    img{
+      margin: 40px;
+      height: 200px;
+      width: 200px;
+    }
+    .column2{
+      height: 450px;
+      width: 70%;
+      padding: 20px;
+      margin-top: 30px;
+    }
+    form{
+      padding: 20px;
+      font-size: 19px;
+      text-align: end;
+      
+    }
+    input{
+      width: 300px;
+    }
+    .dropdown{
+      width: 90px;
+      margin-right: 210px;
+    }
+    .button{
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      width: 200px;
+      margin-left: 30px;
+    }
+  }
